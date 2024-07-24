@@ -65,3 +65,6 @@ function renderedLibrary() {
           </li>`;
   });
 }
+
+// initial rendering
+renderedLibrary();
