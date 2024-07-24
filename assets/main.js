@@ -44,7 +44,6 @@ function renderedLibrary() {
   renderLibEl.innerHTML = "";
 
   const totalBookArray = lib.getBooks();
-  console.log(totalBookArray);
 
   totalBookArray.forEach((book, index) => {
     renderLibEl.innerHTML += `
